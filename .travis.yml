@@ -5,6 +5,8 @@ cache:
   yarn: true
   directories:
     - node_modules
+env:
+  BASEPATH: "/dist"
 script:
   - yarn test
   - yarn build
