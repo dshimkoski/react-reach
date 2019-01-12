@@ -4,7 +4,7 @@ import { Router } from '@reach/router'
 import Home from '../Home'
 
 export default () => (
-  <Router>
+  <Router basepath={process.env.BASEPATH}>
     <Home path='/' />
   </Router>
 )
